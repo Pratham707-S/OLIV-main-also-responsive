@@ -54,7 +54,7 @@ cd OLIV-main-also-responsive
 Distributed under the MIT License. See LICENSE for more information.
 
 👤 Author
-Pratham - @Pratham707-S,@parth021101
+Pratham - @Pratham707-S,@parth021101,harsh 
 
 
 ### Next Steps:
