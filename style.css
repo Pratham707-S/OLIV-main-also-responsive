@@ -151,7 +151,7 @@ section.heading button {
 }
 
 .images {
-  overflow: hidden;
+  /* overflow: hidden; */
   height: 8rem;
   display: flex;
   align-items: center;
@@ -161,6 +161,7 @@ section.heading button {
   display: flex;
   width: max-content;
   animation: scroll-left 20s linear infinite;
+      margin-bottom: 10rem;
 }
 
 .marquee-track img {
@@ -479,8 +480,7 @@ footer {
   font-size: 2rem;
 }
 
-.footer-boxes :hover {
-}
+
 
 .footer-logo {
   width: 7rem;
