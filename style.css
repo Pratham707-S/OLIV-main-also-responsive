@@ -103,7 +103,7 @@ section.navbar {
   border-radius: 20px;
   padding: 0 0.3rem;
 }
-.heading button:hover{
+.heading button:hover {
   background: white;
   color: black;
   border: 1px solid black;
@@ -167,7 +167,7 @@ section.heading button {
   display: flex;
   width: max-content;
   animation: scroll-left 20s linear infinite;
-      margin-bottom: 10rem;
+  margin-bottom: 10rem;
 }
 
 .marquee-track img {
@@ -255,7 +255,7 @@ section.one {
   justify-content: space-between;
   margin-top: 1rem;
 }
-.work-details h6{
+.work-details h6 {
   font-size: 20px;
   font-weight: 500;
 }
@@ -299,18 +299,18 @@ section.one {
   align-items: flex-start;
   margin-left: 1rem;
 }
-.value-box p{
+.value-box p {
   font-size: 1rem;
 }
-.value-box h5{
+.value-box h5 {
   font-size: 1.6rem;
   font-weight: 100;
 }
-.value-box h6{
+.value-box h6 {
   font-size: 1.3rem;
   font-weight: 500;
 }
-.team-det{
+.team-det {
   position: relative;
 }
 .value-box button {
@@ -331,7 +331,7 @@ section.one {
 }
 
 .value-box button:hover {
-  background:white;
+  background: white;
   color: black;
 }
 
@@ -341,10 +341,10 @@ section.one {
 }
 
 section.crafting {
-      display: flex;
-    flex-direction: column;
-    /* align-content: flex-start; */
-    align-items: anchor-center;
+  display: flex;
+  flex-direction: column;
+  /* align-content: flex-start; */
+  align-items: anchor-center;
 }
 
 section.crafting h1 {
@@ -355,14 +355,14 @@ section.crafting h1 {
 }
 
 section.crafting div {
-    display: flex;
-    gap: 1rem;
-    text-align: justify;
-    font-size: 18px;
-    color: rgb(92, 82, 82);
-    line-height: 1.8rem;
+  display: flex;
+  gap: 1rem;
+  text-align: justify;
+  font-size: 18px;
+  color: rgb(92, 82, 82);
+  line-height: 1.8rem;
 }
-.our-team p{
+.our-team p {
   font-size: 1rem;
 }
 .team-det {
@@ -394,6 +394,13 @@ section.crafting div {
   gap: 0.4rem;
   transition: 0.5s;
 }
+.det-logo img {
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  padding: 0.2rem;
+  background-color: #000;
+}
 
 .team-img:hover .det-logo {
   bottom: 1rem;
@@ -423,7 +430,7 @@ section.crafting div {
   width: 80%;
   margin-bottom: 5rem;
 }
-.description-content h1{
+.description-content h1 {
   font-weight: 200;
   line-height: 2rem;
   margin-bottom: 3rem;
@@ -444,17 +451,17 @@ section.contact {
 .contact-detail button {
   margin-top: 2rem;
   border: none;
-  background: black;
+  background: rgb(0, 0, 0);
   color: white;
   border-radius: 30px;
   padding: 1rem 1.5rem;
+  border: 1px solid transparent;
 }
 
 .contact-detail button:hover {
   background: white;
   color: black;
   border: 1px solid black;
-
 }
 
 section.blog {
@@ -472,12 +479,12 @@ section.blog {
   margin-top: 2rem;
   margin-bottom: 3rem; /* pehle .5rem tha */
 }
-.blog-details h6{
+.blog-details h6 {
   margin-top: 1rem;
   font-size: 20px;
   font-weight: 500;
 }
-.blog-details p{
+.blog-details p {
   margin-top: 1rem;
 }
 
@@ -488,9 +495,9 @@ footer {
 }
 
 .footer-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .footer-boxes {
@@ -500,7 +507,7 @@ footer {
   align-items: flex-start;
   font-size: 2rem;
 }
-.footer-boxes h6{
+.footer-boxes h6 {
   margin-bottom: 1rem;
 }
 .border-line {
@@ -508,8 +515,6 @@ footer {
   height: 1px;
   background: #ccc;
 }
-
-
 
 .footer-logo {
   width: 7rem;
@@ -554,6 +559,7 @@ footer {
   height: 2rem;
   border: none;
   border-radius: 50%;
+  overflow: hidden;
 }
 
 .templates {
@@ -564,7 +570,7 @@ footer {
   border: none;
   border-radius: 30px;
   margin-top: 1rem;
-
+  border: 1px solid transparent;
 }
 
 .templates:hover {
@@ -582,10 +588,10 @@ footer {
   align-items: center;
   border-top: 1px solid #eee;
 }
-.last-footer{
+.last-footer {
   display: flex;
   gap: 1rem;
-  justify-content:space-between;
+  justify-content: space-between;
   margin-bottom: 0.5rem;
 }
 
