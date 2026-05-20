@@ -498,6 +498,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  position: relative;
 }
 
 .footer-boxes {
@@ -571,6 +572,8 @@ footer {
   border-radius: 30px;
   margin-top: 1rem;
   border: 1px solid transparent;
+  position: absolute;
+  bottom: 0;
 }
 
 .templates:hover {
@@ -646,7 +649,23 @@ footer {
   .description-details {
     width: 100%;
   }
-
+  .footer-container {
+    flex-direction: column;
+    gap: 1.2rem;
+    align-items: center;
+  }
+  .footer-boxes p {
+    margin: 0 auto;
+  }
+  .footer-boxes:first-child {
+    margin: 0 auto;
+  }
+  .footer-container .templates {
+    margin: 0 auto;
+  }
+  .templates {
+    position: static;
+  }
   .end {
     flex-direction: column;
     height: auto;
